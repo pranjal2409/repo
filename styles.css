@@ -13,25 +13,24 @@ body{
 }
 .heading{	
 	width: 100%;
-	background-color: #222;
+	background-color: #565656;
 	text-align: center;
 	padding: 100px;
 }
 .heading h1{
 	font-size: 3em;
 	margin-bottom: 30px;
-	color: white;
+	color: rgb(200, 50, 67);
 }
 .heading p{
 	font-size: 1.5em;
-	color: blue;
+	color: white;
 }
 .image{
 	width: 100%;
-	background-color: white;
 }
 .box{
-	background-color: blue;
+	background-color: rgb(200, 50, 67);
 	width: 60%;
 	height: 200px;
 	margin: auto;
