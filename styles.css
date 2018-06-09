@@ -10,6 +10,7 @@ body{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-color: #898989;
 }
 .heading{	
 	width: 90%;
@@ -23,6 +24,7 @@ body{
 	font-size: 3em;
 	margin-bottom: 30px;
 	color: white;
+	font-weight: bold;
 }
 .heading p{
 	font-size: 1.5em;
@@ -35,7 +37,6 @@ body{
 	background-color: rgb(200, 50, 67);
 	width: 60%;
 	height: 150px;
-	border-radius: 20%;
 	margin: auto;
 }
 .box ul{
@@ -58,4 +59,5 @@ body{
 }
 .box li a:hover{
 	color: #222;
+	font-size: 2em;
 }
