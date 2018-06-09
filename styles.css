@@ -10,7 +10,6 @@ body{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: #898989;
 }
 .heading{	
 	width: 90%;
@@ -21,11 +20,12 @@ body{
 	padding-left: 50px;
 	padding-bottom: 50px;
 	margin: 30px auto;
-	border-radius: 10%;
+	border-radius: 20%;
 }
 .heading h1{
 	font-size: 3em;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
+	color: white;
 }
 .heading p{
 	font-size: 1.5em;
@@ -39,6 +39,7 @@ body{
 	width: 60%;
 	height: 150px;
 	margin: auto;
+	border-radius: 40%;
 }
 .box ul{
 	line-height: 150px;
@@ -46,6 +47,9 @@ body{
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+}
+.box li{
+	list-style: none;
 }
 .box li a{
 	text-decoration: none;
